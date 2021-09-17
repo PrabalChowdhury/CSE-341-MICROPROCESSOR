@@ -154,6 +154,7 @@
         chk2:
         mov q,cx
         mov ax,q
+        mov dx,q+2
         div c
         mov r,dx
         mov bx,0
